@@ -1,0 +1,4 @@
+Boundary source fallback: https://static.geodataviewer.com/datasets/india-states.geojson
+Derived from DataMeet community boundaries; static 2011 boundary vintage, CC BY 2.5 India per source metadata.
+Prefer an authoritative current Survey of India / LGD boundary dataset for official use.
+A local copy may be placed at india_states.geojson in this directory.

@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "title": "Bhoomi Insight regional indicators",
+    "generated": "2026-11-25",
+    "notes": [
+      "Forest cover data is from ISFR 2023 Table 9.1.",
+      "Agriculture land and cultivated land are provisional 2024-25 values from DES Agriculture Table IX.",
+      "Population is Census 2011 baseline. Current administrative boundary changes mean some population splits require caution.",
+      "Jammu and Kashmir and Ladakh share the combined geographical-area value in ISFR Table 9.1; do not interpret it as an individual area.",
+      "Andhra Pradesh and Telangana 2011 population figures are represented on post-2014 state boundaries using Census 2011 population counts; combined former Andhra Pradesh is not copied into both states.",
+      "Dadra and Nagar Haveli and Daman and Diu population is the sum of the two 2011 Census predecessor UT counts."
+    ]
+  },
+  "regions": {
+    "Andhra Pradesh": {
+      "population_2011": 49386799,
+      "forest_cover": {
+        "geographical_area_km2": 162922.57,
+        "forest_cover_2013_km2": 26043.53,
+        "forest_cover_2023_km2": 30084.96,
+        "change_2013_2023_km2": 4041.43,
+        "change_percent_2013_2023": 15.52,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 8969,
+      "cultivated_land_2024_25_thousand_ha": 7374,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Arunachal Pradesh": {
+      "population_2011": 1383727,
+      "forest_cover": {
+        "geographical_area_km2": 83743.22,
+        "forest_cover_2013_km2": 66966.09,
+        "forest_cover_2023_km2": 65881.57,
+        "change_2013_2023_km2": -1084.52,
+        "change_percent_2013_2023": -1.62,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 431,
+      "cultivated_land_2024_25_thousand_ha": 296,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Assam": {
+      "population_2011": 31205576,
+      "forest_cover": {
+        "geographical_area_km2": 78438,
+        "forest_cover_2013_km2": 27564.9,
+        "forest_cover_2023_km2": 28313.55,
+        "change_2013_2023_km2": 748.65,
+        "change_percent_2013_2023": 2.72,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 3304,
+      "cultivated_land_2024_25_thousand_ha": 2859,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Bihar": {
+      "population_2011": 104099452,
+      "forest_cover": {
+        "geographical_area_km2": 94163,
+        "forest_cover_2013_km2": 7283.55,
+        "forest_cover_2023_km2": 7532.45,
+        "change_2013_2023_km2": 248.9,
+        "change_percent_2013_2023": 3.42,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 6560,
+      "cultivated_land_2024_25_thousand_ha": 6126,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Chhattisgarh": {
+      "population_2011": 25545198,
+      "forest_cover": {
+        "geographical_area_km2": 135192,
+        "forest_cover_2013_km2": 55606.96,
+        "forest_cover_2023_km2": 55811.75,
+        "change_2013_2023_km2": 204.79,
+        "change_percent_2013_2023": 0.37,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 5564,
+      "cultivated_land_2024_25_thousand_ha": 4910,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Delhi": {
+      "population_2011": 16787941,
+      "forest_cover": {
+        "geographical_area_km2": 1483,
+        "forest_cover_2013_km2": 180.32,
+        "forest_cover_2023_km2": 195.28,
+        "change_2013_2023_km2": 14.96,
+        "change_percent_2013_2023": 8.3,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 58,
+      "cultivated_land_2024_25_thousand_ha": 28,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Goa": {
+      "population_2011": 1458545,
+      "forest_cover": {
+        "geographical_area_km2": 3702,
+        "forest_cover_2013_km2": 2219,
+        "forest_cover_2023_km2": 2265.72,
+        "change_2013_2023_km2": 46.72,
+        "change_percent_2013_2023": 2.11,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 141,
+      "cultivated_land_2024_25_thousand_ha": 132,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Gujarat": {
+      "population_2011": 60439692,
+      "forest_cover": {
+        "geographical_area_km2": 196244,
+        "forest_cover_2013_km2": 14507.77,
+        "forest_cover_2023_km2": 15016.64,
+        "change_2013_2023_km2": 508.87,
+        "change_percent_2013_2023": 3.51,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 12234,
+      "cultivated_land_2024_25_thousand_ha": 10295,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Haryana": {
+      "population_2011": 25351462,
+      "forest_cover": {
+        "geographical_area_km2": 44212,
+        "forest_cover_2013_km2": 1583.38,
+        "forest_cover_2023_km2": 1614.26,
+        "change_2013_2023_km2": 30.88,
+        "change_percent_2013_2023": 1.95,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 4030,
+      "cultivated_land_2024_25_thousand_ha": 3689,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Himachal Pradesh": {
+      "population_2011": 6864602,
+      "forest_cover": {
+        "geographical_area_km2": 55673,
+        "forest_cover_2013_km2": 14683,
+        "forest_cover_2023_km2": 15580.35,
+        "change_2013_2023_km2": 897.35,
+        "change_percent_2013_2023": 6.11,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 824,
+      "cultivated_land_2024_25_thousand_ha": 600,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Jharkhand": {
+      "population_2011": 32988134,
+      "forest_cover": {
+        "geographical_area_km2": 79716,
+        "forest_cover_2013_km2": 23815.38,
+        "forest_cover_2023_km2": 23765.78,
+        "change_2013_2023_km2": -49.6,
+        "change_percent_2013_2023": -0.21,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 4311,
+      "cultivated_land_2024_25_thousand_ha": 2876,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Karnataka": {
+      "population_2011": 61095297,
+      "forest_cover": {
+        "geographical_area_km2": 191791,
+        "forest_cover_2013_km2": 36170.68,
+        "forest_cover_2023_km2": 39254.27,
+        "change_2013_2023_km2": 3083.59,
+        "change_percent_2013_2023": 8.53,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 12777,
+      "cultivated_land_2024_25_thousand_ha": 11834,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Kerala": {
+      "population_2011": 33406061,
+      "forest_cover": {
+        "geographical_area_km2": 38852,
+        "forest_cover_2013_km2": 18383.95,
+        "forest_cover_2023_km2": 22059.36,
+        "change_2013_2023_km2": 3675.41,
+        "change_percent_2013_2023": 19.99,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 2178,
+      "cultivated_land_2024_25_thousand_ha": 2020,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Madhya Pradesh": {
+      "population_2011": 72626809,
+      "forest_cover": {
+        "geographical_area_km2": 308252.11,
+        "forest_cover_2013_km2": 77522,
+        "forest_cover_2023_km2": 77073.44,
+        "change_2013_2023_km2": -448.56,
+        "change_percent_2013_2023": -0.58,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 17402,
+      "cultivated_land_2024_25_thousand_ha": 16044,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Maharashtra": {
+      "population_2011": 112374333,
+      "forest_cover": {
+        "geographical_area_km2": 307713,
+        "forest_cover_2013_km2": 50632,
+        "forest_cover_2023_km2": 50858.53,
+        "change_2013_2023_km2": 226.53,
+        "change_percent_2013_2023": 0.45,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 20371,
+      "cultivated_land_2024_25_thousand_ha": 17986,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Manipur": {
+      "population_2011": 2855794,
+      "forest_cover": {
+        "geographical_area_km2": 22327,
+        "forest_cover_2013_km2": 16961.16,
+        "forest_cover_2023_km2": 16585.46,
+        "change_2013_2023_km2": -375.7,
+        "change_percent_2013_2023": -2.22,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 194,
+      "cultivated_land_2024_25_thousand_ha": 187,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Meghalaya": {
+      "population_2011": 2966889,
+      "forest_cover": {
+        "geographical_area_km2": 22429,
+        "forest_cover_2013_km2": 17241.48,
+        "forest_cover_2023_km2": 16966.84,
+        "change_2013_2023_km2": -274.64,
+        "change_percent_2013_2023": -1.59,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 1014,
+      "cultivated_land_2024_25_thousand_ha": 327,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Mizoram": {
+      "population_2011": 1097206,
+      "forest_cover": {
+        "geographical_area_km2": 21081,
+        "forest_cover_2013_km2": 18978.16,
+        "forest_cover_2023_km2": 17990.46,
+        "change_2013_2023_km2": -987.7,
+        "change_percent_2013_2023": -5.2,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 165,
+      "cultivated_land_2024_25_thousand_ha": 150,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Nagaland": {
+      "population_2011": 1978502,
+      "forest_cover": {
+        "geographical_area_km2": 16579,
+        "forest_cover_2013_km2": 13017.35,
+        "forest_cover_2023_km2": 12222.47,
+        "change_2013_2023_km2": -794.88,
+        "change_percent_2013_2023": -6.11,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 666,
+      "cultivated_land_2024_25_thousand_ha": 419,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Odisha": {
+      "population_2011": 41974218,
+      "forest_cover": {
+        "geographical_area_km2": 155707,
+        "forest_cover_2013_km2": 50544.71,
+        "forest_cover_2023_km2": 52433.56,
+        "change_2013_2023_km2": 1888.85,
+        "change_percent_2013_2023": 3.74,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 6688,
+      "cultivated_land_2024_25_thousand_ha": 5172,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Punjab": {
+      "population_2011": 27743338,
+      "forest_cover": {
+        "geographical_area_km2": 50362,
+        "forest_cover_2013_km2": 1790.78,
+        "forest_cover_2023_km2": 1846.09,
+        "change_2013_2023_km2": 55.31,
+        "change_percent_2013_2023": 3.09,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 4232,
+      "cultivated_land_2024_25_thousand_ha": 4208,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Rajasthan": {
+      "population_2011": 68548437,
+      "forest_cover": {
+        "geographical_area_km2": 342238.99,
+        "forest_cover_2013_km2": 16086,
+        "forest_cover_2023_km2": 16548.21,
+        "change_2013_2023_km2": 462.21,
+        "change_percent_2013_2023": 2.87,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 25442,
+      "cultivated_land_2024_25_thousand_ha": 20001,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Sikkim": {
+      "population_2011": 610577,
+      "forest_cover": {
+        "geographical_area_km2": 7096,
+        "forest_cover_2013_km2": 3358,
+        "forest_cover_2023_km2": 3358.4,
+        "change_2013_2023_km2": 0.4,
+        "change_percent_2013_2023": 0.01,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 110,
+      "cultivated_land_2024_25_thousand_ha": 92,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Tamil Nadu": {
+      "population_2011": 72147030,
+      "forest_cover": {
+        "geographical_area_km2": 130060,
+        "forest_cover_2013_km2": 24245.21,
+        "forest_cover_2023_km2": 26450.22,
+        "change_2013_2023_km2": 2205.01,
+        "change_percent_2013_2023": 9.09,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 8104,
+      "cultivated_land_2024_25_thousand_ha": 5683,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Telangana": {
+      "population_2011": 35193978,
+      "forest_cover": {
+        "geographical_area_km2": 112122.44,
+        "forest_cover_2013_km2": 19956.62,
+        "forest_cover_2023_km2": 21179.04,
+        "change_2013_2023_km2": 1222.42,
+        "change_percent_2013_2023": 6.13,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 6728,
+      "cultivated_land_2024_25_thousand_ha": 6249,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Tripura": {
+      "population_2011": 3673917,
+      "forest_cover": {
+        "geographical_area_km2": 10486,
+        "forest_cover_2013_km2": 7948.65,
+        "forest_cover_2023_km2": 7584.77,
+        "change_2013_2023_km2": -363.88,
+        "change_percent_2013_2023": -4.58,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 267,
+      "cultivated_land_2024_25_thousand_ha": 254,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Uttar Pradesh": {
+      "population_2011": 199812341,
+      "forest_cover": {
+        "geographical_area_km2": 240927.56,
+        "forest_cover_2013_km2": 14359.72,
+        "forest_cover_2023_km2": 15045.8,
+        "change_2013_2023_km2": 686.08,
+        "change_percent_2013_2023": 4.78,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 18321,
+      "cultivated_land_2024_25_thousand_ha": 17403,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Uttarakhand": {
+      "population_2011": 10086292,
+      "forest_cover": {
+        "geographical_area_km2": 53483.56,
+        "forest_cover_2013_km2": 24508,
+        "forest_cover_2023_km2": 24303.83,
+        "change_2013_2023_km2": -204.17,
+        "change_percent_2013_2023": -0.83,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 1562,
+      "cultivated_land_2024_25_thousand_ha": 570,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "West Bengal": {
+      "population_2011": 91276115,
+      "forest_cover": {
+        "geographical_area_km2": 88752,
+        "forest_cover_2013_km2": 17101.98,
+        "forest_cover_2023_km2": 16832.33,
+        "change_2013_2023_km2": -269.65,
+        "change_percent_2013_2023": -1.58,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 5577,
+      "cultivated_land_2024_25_thousand_ha": 5518,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Andaman and Nicobar Islands": {
+      "population_2011": 380581,
+      "forest_cover": {
+        "geographical_area_km2": 8249,
+        "forest_cover_2013_km2": 6711,
+        "forest_cover_2023_km2": 6732.92,
+        "change_2013_2023_km2": 21.92,
+        "change_percent_2013_2023": 0.33,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 23,
+      "cultivated_land_2024_25_thousand_ha": 12,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Chandigarh": {
+      "population_2011": 1055450,
+      "forest_cover": {
+        "geographical_area_km2": 114,
+        "forest_cover_2013_km2": 17.26,
+        "forest_cover_2023_km2": 25,
+        "change_2013_2023_km2": 7.74,
+        "change_percent_2013_2023": 44.84,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 1,
+      "cultivated_land_2024_25_thousand_ha": 1,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Dadra and Nagar Haveli and Daman and Diu": {
+      "population_2011": 586620,
+      "forest_cover": {
+        "geographical_area_km2": 602,
+        "forest_cover_2013_km2": 219.96,
+        "forest_cover_2023_km2": 225.62,
+        "change_2013_2023_km2": 5.66,
+        "change_percent_2013_2023": 2.57,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 22,
+      "cultivated_land_2024_25_thousand_ha": 21,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Jammu and Kashmir": {
+      "population_2011": 12267013,
+      "forest_cover": {
+        "geographical_area_km2": 222236,
+        "forest_cover_2013_km2": 20948.27,
+        "forest_cover_2023_km2": 21346.39,
+        "change_2013_2023_km2": 398.12,
+        "change_percent_2013_2023": 1.9,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 1097,
+      "cultivated_land_2024_25_thousand_ha": 831,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Ladakh": {
+      "population_2011": 274289,
+      "forest_cover": {
+        "geographical_area_km2": 222236,
+        "forest_cover_2013_km2": 1478,
+        "forest_cover_2023_km2": 2285.92,
+        "change_2013_2023_km2": 807.92,
+        "change_percent_2013_2023": 54.66,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 32,
+      "cultivated_land_2024_25_thousand_ha": 24,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Lakshadweep": {
+      "population_2011": 64473,
+      "forest_cover": {
+        "geographical_area_km2": 29.63,
+        "forest_cover_2013_km2": 27.02,
+        "forest_cover_2023_km2": 27.06,
+        "change_2013_2023_km2": 0.04,
+        "change_percent_2013_2023": 0.15,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 2,
+      "cultivated_land_2024_25_thousand_ha": 2,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    },
+    "Puducherry": {
+      "population_2011": 1247953,
+      "forest_cover": {
+        "geographical_area_km2": 490,
+        "forest_cover_2013_km2": 50.52,
+        "forest_cover_2023_km2": 44.31,
+        "change_2013_2023_km2": -6.21,
+        "change_percent_2013_2023": -12.29,
+        "year": 2023,
+        "source": "Forest Survey of India, India State of Forest Report 2023, Table 9.1"
+      },
+      "agriculture_land_2024_25_thousand_ha": 27,
+      "cultivated_land_2024_25_thousand_ha": 18,
+      "agriculture_year": "2024-25 (provisional)",
+      "agriculture_source": "Department of Agriculture & Farmers Welfare, Land Use Statistics at a Glance 2024-25, Table IX"
+    }
+  }
+}

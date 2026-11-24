@@ -1,0 +1,32 @@
+{
+  "groundwater": {
+    "title": "National Compilation on Dynamic Ground Water Resources of India, 2024",
+    "publisher": "Central Ground Water Board (CGWB), Ministry of Jal Shakti",
+    "assessment_year": 2024,
+    "national_values_csv": "groundwater_resources_cgwb_2024.csv",
+    "official_report_url": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/17357169591419696804file.pdf",
+    "publication_record_url": "https://cgwb.gov.in/cgwbpnm/public/publication-detail/1326",
+    "coverage": "The report includes state-wise Annexure I and district-wise Annexure II. Bundled CSV contains only the national aggregates transcribed from the report summary; do not treat them as state-level figures.",
+    "limitations": "Groundwater resource recharge/extractable estimates are not groundwater-level observations."
+  },
+  "flood": {
+    "title": "Bhuvan / NRSC Flood Services",
+    "publisher": "National Remote Sensing Centre (NRSC), ISRO",
+    "hazard_period": "Historical maximum inundation layers from 1998\u20132019 used for hazard zonation",
+    "annual_layers": "Selected states and years; availability is not uniform nationally.",
+    "aggregated_state_maps_period": "2003\u20132020 for selected states shown by Bhuvan.",
+    "portal_url": "https://bhuvan-app1.nrsc.gov.in/disaster/usrtasks/flood/flood.php?uname=empty",
+    "hazard_url": "https://bhuvan-app1.nrsc.gov.in/disaster/usrtasks/flood_hz/flood_hz.php?uname=empty",
+    "wms_catalog_url": "https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore.php",
+    "wms_endpoint": "https://bhuvan-ras2.nrsc.gov.in/cgi-bin/hazard.exe",
+    "coverage_note": "Use the Bhuvan portal to select available state/year layers. These are satellite-observed historical inundation/hazard products, not live flood alerts or a complete uniform 36-region dataset.",
+    "limitations": "Bhuvan warns that satellite swaths may miss peak flooding and flash/minor floods; observed inundation may also include embankment breaches or rainwater accumulation."
+  },
+  "boundaries": {
+    "title": "India States and Union Territories GeoJSON",
+    "source": "geohacker/india public GeoJSON repository",
+    "source_url": "https://raw.githubusercontent.com/geohacker/india/master/state/india_state.geojson",
+    "alternate_source_url": "https://maps.pispace.eu/data/india/",
+    "coverage_note": "The app first looks for a local file at static/portal/data/india_states.geojson and then tries the public GeoJSON source. This build does not contain a local polygon copy because the external asset could not be retrieved into the package in this environment. Verify boundary vintage and administrative naming before official/legal use."
+  }
+}

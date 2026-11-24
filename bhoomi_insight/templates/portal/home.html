@@ -1,0 +1,150 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhoomi Insight — Land Governance Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="{% static 'portal/css/style.css' %}">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">b.</span><span>BHOOMI<span class="brand-light"> INSIGHT</span><small>LAND GOVERNANCE INTELLIGENCE</small></span></a>
+  <nav class="main-nav"><a class="active" href="#overview">Overview</a><a href="#evidence">Evidence library</a><a href="#regions">Territory watch</a><a href="#policy">Policy studio</a></nav>
+  <div class="top-actions"><span class="live-dot">LIVE SEARCH</span><button class="profile-btn" aria-label="Profile">PS</button></div>
+</header>
+
+<main>
+<section class="hero" id="overview">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="eyebrow-line"></span> A NATIONAL KNOWLEDGE COMMONS</div>
+    <h1>Better land decisions<br><em>begin with evidence.</em></h1>
+    <p class="hero-lede">A shared intelligence space for research, policy innovation and the people shaping how India understands, uses and governs land.</p>
+    <div class="hero-actions"><a class="btn-primary" href="#evidence">Explore the evidence <span>↗</span></a><a class="text-link" href="#regions">View territory signals <span>→</span></a></div>
+    <div class="hero-foot"><span class="tiny-symbol">✳</span> CONNECTING KNOWLEDGE TO THE GROUND</div>
+  </div>
+  <div class="hero-art">
+    <div class="art-top"><span>LAND SYSTEMS / INDIA</span><span>01 — 04</span></div>
+    <div class="contour-wrap">
+      <svg class="contours" viewBox="0 0 580 470" fill="none" aria-label="Abstract topographic land contour illustration">
+        <path d="M-20 120C80 20 170 50 220 105S330 205 420 120 560 35 620 90"/><path d="M-25 145C75 45 165 75 215 130S325 230 415 145 555 60 615 115"/>
+        <path d="M-30 170C70 70 160 100 210 155S320 255 410 170 550 85 610 140"/><path d="M-35 195C65 95 155 125 205 180S315 280 405 195 545 110 605 165"/>
+        <path d="M-40 220C60 120 150 150 200 205S310 305 400 220 540 135 600 190"/><path d="M-45 245C55 145 145 175 195 230S305 330 395 245 535 160 595 215"/>
+        <path d="M-50 270C50 170 140 200 190 255S300 355 390 270 530 185 590 240"/><path d="M-55 295C45 195 135 225 185 280S295 380 385 295 525 210 585 265"/>
+        <path d="M-60 320C40 220 130 250 180 305S290 405 380 320 520 235 580 290"/>
+        <path d="M70 10C130 75 130 145 100 200S40 315 95 390 205 485 280 455" opacity=".6"/>
+        <path d="M95 0C155 65 155 135 125 190S65 305 120 380 230 475 305 445" opacity=".6"/>
+        <path d="M120 -10C180 55 180 125 150 180S90 295 145 370 255 465 330 435" opacity=".6"/>
+        <path d="M330 5C270 80 300 145 365 190S475 275 440 350 380 440 455 480" opacity=".5"/>
+        <path d="M355 -5C295 70 325 135 390 180S500 265 465 340 405 430 480 470" opacity=".5"/>
+        <path d="M380 -15C320 60 350 125 415 170S525 255 490 330 430 420 505 460" opacity=".5"/>
+      </svg>
+      <div class="map-pin pin-one"><span></span><b>FIELD SIGNAL</b><small>29.0° N / 75.4° E</small></div>
+      <div class="map-pin pin-two"><span></span><b>POLICY LENS</b><small>20.9° N / 85.1° E</small></div>
+      <div class="map-center"><div class="center-ring">BH</div><span>LAND<br>INTELLIGENCE</span></div>
+      <div class="art-caption">LAND IS NOT JUST TERRITORY.<br>IT IS LIVELIHOOD, ECOLOGY & FUTURE.</div>
+    </div>
+    <div class="art-bottom"><span>GEOSPATIAL THINKING</span><span>◌ &nbsp; EVIDENCE IN CONTEXT</span></div>
+  </div>
+</section>
+
+<section class="signal-strip">
+  <div class="signal-intro"><span class="overline">THE BIG PICTURE</span><p>From fragmented information<br>to connected understanding.</p></div>
+  <div class="metric"><span class="metric-num">04</span><span class="metric-label">KNOWLEDGE PILLARS</span><small>Research · Policy · Data · Innovation</small></div>
+  <div class="metric"><span class="metric-num">360°</span><span class="metric-label">TERRITORY VIEW</span><small>People, place and land systems</small></div>
+  <div class="metric"><span class="metric-num">01</span><span class="metric-label">SHARED KNOWLEDGE SPACE</span><small>Designed for collaboration</small></div>
+</section>
+
+<section class="section evidence-section" id="evidence">
+  <div class="section-heading">
+    <div><div class="eyebrow"><span class="eyebrow-line"></span> KNOWLEDGE, MADE DISCOVERABLE</div><h2>Evidence <em>in motion.</em></h2></div>
+    <p>Find the research, datasets and policy thinking behind more informed land decisions.</p>
+  </div>
+  <div class="library-toolbar">
+    <div class="search-wrap"><span>⌕</span><input id="evidenceSearch" type="search" placeholder="Search land use, tenure, climate, policy..." aria-label="Search evidence"></div>
+    <div class="filter-group" role="group" aria-label="Filter evidence">
+      <button class="filter-chip selected" data-filter="all">All evidence</button><button class="filter-chip" data-filter="research">Research</button><button class="filter-chip" data-filter="policy">Policy</button><button class="filter-chip" data-filter="dataset">Datasets</button><button class="filter-chip" data-filter="innovation">Innovation</button>
+    </div>
+  </div>
+  <div class="evidence-grid" id="evidenceGrid" aria-live="polite"></div>
+  <div class="empty-state" id="emptyState">Enter a keyword to search live research publications and public datasets.</div>
+  <div class="section-end"><span id="evidenceStatus">LIVE SEARCH · OPENALEX · CROSSREF · GDELT</span><a id="ogdCatalogLink" href="https://www.data.gov.in/catalogs" target="_blank" rel="noopener noreferrer">India OGD catalog ↗</a><a href="#evidence">Browse knowledge stream ↑</a></div>
+</section>
+
+<section class="territory-section" id="regions">
+  <div class="territory-head">
+    <div><div class="eyebrow light"><span class="eyebrow-line"></span> NATIONAL LAND INTELLIGENCE</div><h2>Explore India.<br><em>Region by region.</em></h2></div>
+    <p>Explore all 28 states and 8 Union Territories. Select a region to view sourced forest-cover, agriculture and historical population indicators, alongside research and official data links.</p>
+  </div>
+  <div class="national-map-shell">
+    <div class="map-toolbar">
+      <div class="map-search"><span>⌕</span><input id="stateSearch" type="search" placeholder="Find a state or Union Territory..." aria-label="Find a state or Union Territory"></div>
+      <div class="map-filters" id="mapFilters">
+        <button class="map-filter active" data-theme="all">All regions</button>
+        <button class="map-filter" data-theme="agriculture">Agriculture</button>
+        <button class="map-filter" data-theme="forest">Forest</button>
+        <button class="map-filter" data-theme="coastal">Coastal</button>
+        <button class="map-filter" data-theme="urban">Urban</button>
+      </div>
+    </div>
+    <div class="map-workspace">
+      <div class="map-canvas-wrap">
+        <div class="map-canvas-heading"><span>INDIA / STATE & UT BOUNDARIES</span><span id="mapStatus">LOADING GEOGRAPHY…</span></div>
+        <div id="indiaMap" role="application" aria-label="Interactive map of India's states and union territories"></div>
+        <div class="map-attribution-note">Boundary layer: GeoJSON reference dataset · Verify before official use</div>
+      </div>
+      <aside class="map-info-panel">
+        <div class="panel-top"><span class="overline">REGIONAL PROFILE</span><span class="panel-count" id="regionCount">36 REGIONS</span></div>
+        <div class="selected-region-kicker" id="selectedRegionType">SELECT A REGION ON THE MAP</div>
+        <h3 id="selectedRegionName">India</h3>
+        <p id="selectedRegionDescription">Choose any state or Union Territory on the map to explore its land-governance themes.</p>
+        <div class="profile-divider"></div>
+        <span class="profile-label">LAND GOVERNANCE THEMES</span>
+        <div class="theme-tags" id="selectedRegionThemes"><span class="theme-tag">Agriculture</span><span class="theme-tag">Land records</span><span class="theme-tag">Climate resilience</span></div>
+        <div class="profile-divider"></div>
+        <span class="profile-label">REGIONAL INTELLIGENCE</span>
+        <div id="territoryDataPanel" class="territory-data-panel"><p class="profile-loading">Select a state or Union Territory to load its profile.</p></div>
+        <div class="profile-divider"></div>
+        <span class="profile-label">FIND A REGION</span>
+        <div class="region-directory" id="regionDirectory"><p class="directory-loading">Loading region directory…</p></div>
+        <p class="map-disclaimer">Forest-cover and agriculture figures are sourced from the cited government publications. Population is a Census 2011 baseline. Theme tags are discovery categories, not measured findings. Flood overlay is historical satellite-derived hazard information, not a live warning.</p>
+        <div class="profile-label" style="margin-top:1rem">HYDROLOGY DATA SOURCES</div>
+        <p class="map-disclaimer"><a href="https://cgwb.gov.in/cgwbpnm/public/uploads/documents/17357169591419696804file.pdf" target="_blank" rel="noopener">CGWB groundwater assessment 2024 ↗</a> · <a href="https://bhuvan-app1.nrsc.gov.in/disaster/usrtasks/flood/flood.php?uname=empty" target="_blank" rel="noopener">Bhuvan flood annual layers ↗</a> · <a href="https://bhuvan-app1.nrsc.gov.in/disaster/usrtasks/flood_hz/flood_hz.php?uname=empty" target="_blank" rel="noopener">Flood hazard zones ↗</a></p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="policy-section" id="policy">
+  <div class="policy-intro">
+    <div class="eyebrow"><span class="eyebrow-line"></span> FROM INSIGHT TO ACTION</div><h2>Policy should be<br><em>grounded in place.</em></h2>
+    <p>Turn scattered knowledge into clearer questions, stronger options and decisions that can be explained.</p>
+    <button class="btn-dark" id="openPolicy">Open policy studio <span>↗</span></button>
+  </div>
+  <div class="policy-cards">
+    <article class="policy-card"><span class="policy-number">01 / DISCOVER</span><div class="policy-icon">⌕</div><h3>Find the evidence</h3><p>Bring research, public datasets and policy documents into one discoverable knowledge layer.</p><span class="card-line"></span><small>SEARCH · CONNECT · TRACE</small></article>
+    <article class="policy-card featured"><span class="policy-number">02 / INTERPRET</span><div class="policy-icon">⌁</div><h3>See the relationships</h3><p>Connect place-based signals with social, ecological and economic context before acting.</p><span class="card-line"></span><small>MAP · COMPARE · UNDERSTAND</small></article>
+    <article class="policy-card"><span class="policy-number">03 / COLLABORATE</span><div class="policy-icon">↗</div><h3>Shape better choices</h3><p>Give researchers and decision-makers a shared space to test assumptions and document learning.</p><span class="card-line"></span><small>DISCUSS · TEST · IMPROVE</small></article>
+  </div>
+</section>
+
+<section class="closing-band">
+  <div class="closing-mark">b.</div><div><span class="overline">A MORE INFORMED LAND FUTURE</span><h2>Make knowledge useful.<br><em>Make decisions count.</em></h2></div><a href="#overview">Back to the beginning ↑</a>
+</section>
+</main>
+<footer><span>© 2026 BHOOMI INSIGHT · CONCEPT PROTOTYPE</span><span>BUILT FOR RESEARCH · POLICY · INNOVATION</span><span>EXTERNAL RESULTS · VERIFY AT SOURCE</span></footer>
+
+<div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="closeModal" aria-label="Close">×</button><div class="eyebrow"><span class="eyebrow-line"></span> BHOOMI INSIGHT / WORKSPACE</div>
+    <span class="modal-tag" id="modalTag">EVIDENCE NOTE</span><h2 id="modalTitle">Policy studio</h2><p id="modalText">A shared workspace for evidence-led land governance.</p>
+    <div class="modal-source" id="modalSource">BHOOMI INSIGHT</div>
+    <div class="modal-actions"><button class="btn-primary" id="modalDone">Return to platform <span>↗</span></button></div>
+  </div>
+</div>
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="{% static 'portal/js/app.js' %}"></script>
+</body></html>
